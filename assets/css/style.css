@@ -457,6 +457,7 @@ img {
   padding: 100px 0;
 }
 #mu-about-us .mu-about-us-area {
+  border: 1px solid red;
   display: inline;
   float: left;
   width: 100%;
@@ -469,7 +470,9 @@ img {
 #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
   font-size: 40px;
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
+  border: 1px solid red;
+
 }
 #mu-about-us .mu-about-us-area .mu-about-us-left ul {
   margin-left: 25px;
@@ -529,14 +532,10 @@ img {
   margin-right: 50px;
   margin-top: 50px;
 }
-#about-video-popup iframe {
-  background: url(../img/loader.gif) center center no-repeat;
-  margin: 10% auto;
-  width: 650px;
-  height: 450px;
-}
+
 
 .mu-title {
+  padding-top: 30px;
   display: inline;
   float: left;
   text-align: center;
@@ -547,11 +546,39 @@ img {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
+
+.mu-title h3 {
+  color: #000;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+}
 .mu-title p {
   color: #555;
   letter-spacing: 0.3px;
   line-height: 1.7;
   padding: 0 120px;
+  text-align: justify;
+  text-indent: 40px
+}
+
+.mu-title li {
+  color: #555;
+  letter-spacing: 0.3px;
+  line-height: 1.7;
+  padding: 0px;
+  text-align: justify;
+  list-style-type: disc;
+
+}
+
+.mu-title ol {
+    padding-left: 40px;
+    margin: auto 20% auto 20%;
+    text-align: justify;
+
+
 }
 
 /*==================
@@ -797,6 +824,7 @@ img {
  TEACHER SECTION
 ====================*/
 #mu-our-teacher {
+  border:1px solid red;
   display: inline;
   float: left;
   padding: 100px 0;
@@ -2134,7 +2162,7 @@ img {
   }
 
   #mu-from-blog {
-    padding: 60px 0;
+    padding: 10px 0;
   }
 
   #mu-from-blog .mu-from-blog-area .mu-from-blog-content {
