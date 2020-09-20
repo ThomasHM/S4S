@@ -555,7 +555,7 @@ img {
   
 }
 .mu-title p {
-  color: #555;
+  color: black;
   letter-spacing: 0.3px;
   line-height: 1.7;
   padding: 0 120px;
@@ -564,13 +564,20 @@ img {
 }
 
 .mu-title li {
-  color: #555;
+  color: black;
   letter-spacing: 0.3px;
   line-height: 1.7;
   padding: 0px;
   text-align: justify;
   list-style-type: disc;
 
+}
+
+.mu-title hr {
+  color: black;
+  border-bottom: 1px solid black;
+  width: 80%;
+  position: center;
 }
 
 .mu-title ol {
@@ -1810,7 +1817,7 @@ img {
   text-transform: uppercase;
 }
 #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info .mu-single-gallery-info-inner p {
-  color: #fff;
+  color: black;
   font-size: 14px;
   margin-bottom: 20px;
 }
