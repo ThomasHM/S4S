@@ -39,6 +39,11 @@ body {
   overflow-x: hidden;
 }
 
+.navbar-header span {
+  margin-bottom: 10%;
+
+}
+
 .no-padding {
   padding: 0;
 }
